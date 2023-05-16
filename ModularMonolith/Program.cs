@@ -4,8 +4,6 @@ using Module_B;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddRazorPages();
-
 builder.Services.AddModule<ModuleA>();
 builder.Services.AddModule<ModuleB>();
 
